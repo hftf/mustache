@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href=""><span class="kunddaliya">&#x0df4; </span>mustache</a></h1>
+    <ul>
+      <li><a class="play" href="play/">play</a></li>
+      <li><a class="compose" href="compose/">compose</a></li>
+      <li><a class="about" href="about/">about</a></li>
+    </ul>
+    <br style="clear: left;" />
+  </header>
+  <div role="main">
+    <h2>Edit question</h2>
+    <p><label for="instructions">Instructions</label><br />
+      <input type="text" id="instructions" size="50" value="Name the composer." /></p>
+    
+    <p><label for="description">Description</label><br />
+      <input type="text" id="description" size="30" value="Satie piano works" /></p>
+    
+    <p><label for="answer">Answer</label><br />
+      <input type="text" id="description" size="30" value="(Erik) Satie" /></p>
+    
+    <h3>Ordered list of clips</h3>
+    <ol>
+      <li>Pièce froide No. 1: Airs à&hellip; (0:09)</li>
+      <li>Sports et Divertissements&hellip; (0:11)</li>
+      <li>Véxations (0:14)</li>
+      <li>Nocturne No. 4 (0:08)</li>
+      <li>Gnossienne No. 1 (0:13)</li>
+      <li>Gymnopédie No. 1 (0:12)</li>
+    </ol>
+    <p>Total duration: 1:07</p>
+    
+    <fieldset style="width: 400px;">
+      <legend>
+        <h3>Add clip</h3>
+      </legend>
+      
+      <h4>Annotations</h4>
+      <p><label for="clip_instructions">Instructions</label><br />
+        <input type="text" id="clip_instructions" size="50" /></p>
+      
+      <p><label for="clip_description">Description</label><br />
+        <input type="text" id="clip_description" size="30" value="Pièce froide No. 1: Airs à faire fuir" /></p>
+      
+      <p><a href="#">Add composer, arranger, genre, artist, tags</a></p>
+      
+      <p class="drop">Drop or paste URL of YouTube video here</p>
+      <p><input type="checkbox" id="crop" /> <label for="crop">Crop audio</label>
+        <label for="from">from</label> <input type="time" id="from" size="4" value="0:03" />
+        <label for="to">to</label> <input type="time" id="to" size="4" value="0:12" /></p>
+      <p><button>Upload clip</button></p>
+    </fieldset>
+
+    <p><button>Save changes</button> <button>Publish question&hellip;</button></p>
+  </div>
+  <footer>
+
+  </footer>
+</body>
+</html>
